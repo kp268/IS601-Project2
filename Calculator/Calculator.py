@@ -32,6 +32,6 @@ class Calculator:
         self.result = squarefunc(a)
         return self.result
 
-    def square_root(self, a):
+    def squareroot(self, a):
         self.result = round(squarerootfunc(a), 8)
         return self.result
