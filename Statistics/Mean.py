@@ -1,12 +1,12 @@
 from Calculator.Addition import add
 from Calculator.Division import divide
 
-def mean(data):
+def findmean(value):
     try:
         total = 0
-        for x in data:
+        for x in value:
             total = add(x, total)
-        return divide(total, len(data))
+        return divide(total, len(value))
 
     except ValueError:
         print("List is empty")
